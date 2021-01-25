@@ -1,0 +1,83 @@
+.menu {
+  flex: 0.15;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  /* box-shadow: rgba(0, 0, 0.1, 1.5); */
+}
+
+.menu__profile {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0d1c2e;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.menu__profile > img {
+  border-radius: 100%;
+  width: 70px;
+}
+
+.menu__profile > p {
+  margin-top: 7px;
+}
+
+.menu__options {
+  width: 100%;
+
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu__option {
+  color: #707c97;
+  font-size: 12px;
+  font-weight: 600;
+  width: 90%;
+  padding: 15px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__option > .MuiSvgIcon-root {
+  margin-right: 10px !important;
+}
+
+.menu__option:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+.selected {
+  color: #2a8bf2;
+  border-left: 3px solid #2a8bf2;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0 !important;
+  width: 260px;
+}
+
+.chatList__dropdown {
+  background: transparent;
+  color: #707c97;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-left: 2px solid rgb(241, 241, 241);
+}
+
